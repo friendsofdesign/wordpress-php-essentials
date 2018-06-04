@@ -1,8 +1,8 @@
 # Introduction to WordPress
 
-## What is WordPress? {#what-is-wordpress}
+## What is WordPress?
 
-**WordPress is** the most easy to use website and blog creation tool and content management system \(or CMS\) available.
+**WordPress is** the most easy to use website and blog creation tool and content management system \(or CMS\) available. 
 
 > A content management system is a computer application that supports the creation and modification of digital content. It typically supports multiple users in a collaborative environment.
 

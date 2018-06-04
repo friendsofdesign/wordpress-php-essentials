@@ -1,10 +1,35 @@
-# Plugins
+# Conditional Statements
 
-### What is a plugin? {#what-is-a-plugin}
+One of the primary reasons for using a programming language like PHP is to write conditional statements.
 
-A plugin is a piece of software containing a group of functions that can be added to a WordPress website. They can extend functionality or add new features to your WordPress websites. WordPress plugins are written in the PHP programming language and integrate seamlessly with WordPress.
+Conditional statements let you test if a certain condition exists and then execute code that is appropriate for that condition.
 
-In the WordPress community, there is a saying that goes around: “there’s a plugin for that”. They make it easy for users to add features to their website without knowing a single line of code.
+```php
+<?phpif(statement that must be true){    (code to be executed when the "if" statement is true);}else{    (code to be executed when the "if" statement is not true);}?>
+```
 
-There are thousands available for free to download at the [official WordPress plugin directory](http://wordpress.org/extend/plugins/).
+The simplest, and most common conditional statement you'll see in WordPress is the if statement, or the if else statement. 
+
+A common use of the statement is to test if any posts are available for a specific page. 
+
+```php
+if ( is_home() || is_single() ) {
+ 
+   the_content();
+ 
+}
+else {
+ 
+   the_excerpt();
+ 
+}
+```
+
+If there are posts available, then you'll write out the code to display those posts, using many of the template tags we looked at previously. 
+
+If there are no posts available we would use the else portion of the conditional statement, and echo out a message saying there are no posts available. 
+
+This simple example will work for checking and displaying a single post. But most of the time in WordPress, we combine conditional statements with loop statements that let us apply our code as many times as necessary.
+
+For example, when you're looping through multiple blog posts on a blog listing page. So let's take a look now at how we would combine a conditional statement with a simple loop.
 

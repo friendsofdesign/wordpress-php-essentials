@@ -1,34 +1,16 @@
-# Setting up WordPress in a local host environment
+# Widgets
 
-**Tools you will need:**
+### What is a Widget?
 
-1. MAMP or WAMP - MAMP is for Mac, WAMP is for Windows.
-2. WordPress.org latest install
-3. MySQL Database
+A WordPress Widget is a small block that performs a specific function. You can add these widgets in [sidebars](http://www.wpbeginner.com/glossary/sidebar/) also known as widget-ready areas on your web page.
 
- MAMP has been installed on your Macs with Bitnami. If you'd like to learn how to install WordPress with Bitnami, you can go to the following link: [https://www.howtoforge.com/installing-wordpress-with-bitnami](https://www.howtoforge.com/installing-wordpress-with-bitnami)​
+WordPress widgets were originally created to provide a simple and easy-to-use way of giving design and structure control of the WordPress theme to the user. Widgets can be easily dragged and dropped into a specific widget area. You can find the list of available widgets and widget areas by going to the **Appearance » Widgets** section in your WordPress dashboard.
 
-To start the MAMP Apache and MySQL servers, simply click "Start Servers" from the main MAMP screen. Your MAMP servers have now been started.
+Widgets in WordPress allow you to add content and features in the widgetized areas of your theme which is mostly the sidebar. However these widget-ready areas can be in the header, footer, sidebar, below content, and basically any other area in your theme. The available widget areas that you have in your theme will vary from theme to theme.
 
-Once the MAMP servers start, the MAMP start page should open in your default web browser. If not, click on "Open start page" in the MAMP window. Once that's open, select phpMyAdmin from the webpage.
+Most WordPress themes are widget ready and have multiple widget areas. However themes are NOT required to have widget areas. If you do not see any widget areas, then it means that your theme does not support widgets.
 
-Under "Create new database", enter in a database name such as "wordpress", and press "Create." No need to choose an option for "collation", it will automatically be assigned by MySQL when the database tables are created, during the WordPress installation.
+There are many different types of widgets. WordPress by default comes with several widgets including categories, tag cloud, navigation menu, calendar, search, recent posts etc. If you drag the recent posts widget in a widget area, then it will contain a list of recent posts.
 
-### WordPress Install {#wordpress-install}
-
-Now it's time to download WordPress. Navigate to WordPress.org, on the top right hand corner of the website you will see a download button.
-
-Once you've downloaded and unzipped the WordPress download, open up the "wordpress" folder.
-
-Click and drag all of the files from the wordpress folder to your MAMP document root \(/Applications/MAMP/htdocs\).
-
-Lastly, we've got to run WordPress' famous 5-minute installation.
-
-Visit your local site \(localhost:port or localhost:port/wordpress\), and enter the following information into the database setup form:
-
-```text
-Database Name: wordpressUser Name (database): rootPassword (database): rootDatabase Host/server: localhostTable Prefix: wp_
-```
-
-Once that's complete, enter your Site Name, email address, username and password and you're good to go!
+Widgets are mostly standalone areas of code that perform a certain function. Plugins often add their own widgets to give users more control over the display of plugin functions. An example of a plugin widget would be OIO Publisher which allows you to add a specific banner ad zone in your widget areas by using the widget.
 

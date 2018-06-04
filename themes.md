@@ -1,8 +1,6 @@
 # Themes
 
-
-
-### What is a Theme? {#what-is-a-theme}
+### What is a Theme?
 
 A WordPress theme provides all of the front end styling of your WordPress site.
 
@@ -30,4 +28,6 @@ There are only **two files absolutely required in a WordPress** theme:
 
 1. `index.php` – the main template file
 2. `style.css` – the main style file
+
+
 
