@@ -6,4 +6,5 @@
 * [Themes](themes.md)
 * [Plugins](untitled-1.md)
 * [Widgets](widgets.md)
+* [WordPress Dashboard](wordpress-dashboard.md)
 
