@@ -1,6 +1,8 @@
 # WordPress Dashboard
 
-![](https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LBLSiG7o4QVyI-kbmKw%2F-LBPZwrpda3vg9sgEP9R%2F-LBP_PrcVIekRL75vivf%2Fimage.png?alt=media&token=2985d5bf-c948-4cbf-9814-473ed5c7f6ef)The WordPress Dashboard
+![](https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LBLSiG7o4QVyI-kbmKw%2F-LBPZwrpda3vg9sgEP9R%2F-LBP_PrcVIekRL75vivf%2Fimage.png?alt=media&token=2985d5bf-c948-4cbf-9814-473ed5c7f6ef)
+
+The WordPress Dashboard
 
 When you log in to WordPress the dashboard is the first thing that you will see. The Welcome to WordPress! page will tell you all the activity that is happening in your WordPress site.
 
