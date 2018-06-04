@@ -5,4 +5,5 @@
 * [Setting up WordPress in a local host environment](untitled.md)
 * [Themes](themes.md)
 * [Plugins](untitled-1.md)
+* [Widgets](widgets.md)
 
